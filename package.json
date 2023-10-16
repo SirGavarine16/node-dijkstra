@@ -1,0 +1,15 @@
+{
+  "name": "node-dijkstra",
+  "version": "1.0.0",
+  "description": "Dijkstra's shortest path algorithm implemented with TypeScript.",
+  "main": "build/index.js",
+  "author": "Daniel De la Cruz Gavarain (danieldelagavarain.dev@gmail.com) [https://github.com/SirGavarine16]",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "start": "tsc && node build/index"
+  }
+}
